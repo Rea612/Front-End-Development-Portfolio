@@ -1,0 +1,128 @@
+/*
+Student Info: Name=RuiZou, ID=15234 
+Subject: CS557A_HW3_Fall_2016 
+Author: ruizou
+Filename: style.css 
+Date and Time: Nov 4, 2016 2:51:55 PM 
+Project Name: RuiZou_15234_CS557A_HW3 
+*/ 
+/* 
+    Created on : Nov 4, 2016, 2:51:55 PM
+    Author     : ruizou
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #02c8a7;
+    font: 100% "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+}
+a, a:visited{
+    color: #d9d9d9;
+}
+p {
+    margin: 0.5em 0.25em;
+    color: #eb6e80;
+}
+h1{
+    font-size: 1.75em;
+    border: solid #e8e8e8;
+    border-width: 2px 0;
+    padding: 0.25em;
+    text-align: center;
+    font-variant: small-caps;
+    color: #f9cf00;
+}
+h2{
+    text-align: center;
+    font-variant: small-caps;
+    color: #e24e42;
+}
+#orderForm{
+    text-align: left;
+    font: 100% "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+}
+dl{
+    margin: 0 0.5em;
+}
+dt{
+    font-weight: bold;
+    margin: 0.5em 1em 0.5em 0;
+    border-bottom: 1px dashed #dbb89a;
+}
+nav{
+    background-color: #f9cf00;
+    border-bottom: 2px solid #e7d0bd;
+}
+nav ul li {
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 0.25em 0;
+}
+nav li a {
+    color: #4484ce;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+header p {
+    margin-top: 0;
+    text-align: center;
+}
+footer{
+    background-color: #f9cf00;
+    color: #e0a025;
+    text-align: center;
+    padding: .5em 0;
+    font-style: normal;
+}
+header, footer{
+    clear: both;
+}
+nav{
+    min-height: 25px;
+}
+img,object{
+    max-width: 100%;
+}
+nav ul li{
+    width: 33.333%;
+}
+header, footer, nav{
+    width: 100%;
+}
+.picsList li{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+}
+.picsList img{
+    width: 240px;
+    height: 240px;
+    margin-bottom: 5px;
+}
+#pics, #pics ul, #pics ul li {
+    background: #e8e8e8;
+}
+@media screen and (max-width:480px){
+    .column{
+        margin: 1em 0;
+        border-bottom: 1px dashed #bc9055;
+    }
+    #visit{
+        width: 100%;
+    }
+    .picsList li{
+        width: 50%;
+    }
+    #map{
+        display: none;
+    }
+    header{
+        display:none;
+    }
+}
+

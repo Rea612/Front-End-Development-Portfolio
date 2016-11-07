@@ -1,0 +1,34 @@
+/*
+Student Info: Name=RuiZou, ID=15234 
+Subject: CS557A_HW3_Fall_2016 
+Author: ruizou
+Filename: layout.css 
+Date and Time: Nov 4, 2016 1:37:37 PM 
+Project Name: RuiZou_15234_CS557A_HW3 
+*/ 
+/* 
+    Created on : Nov 4, 2016, 1:37:37 PM
+    Author     : ruizou
+*/
+.column{
+    margin: 10px 1.04166667% 0 0;
+}
+#visit{
+    margin: 0 68.75% 0 0;
+}
+#pics{
+    width: 67%;
+    float: right;
+    margin: 10px 0 0 0;
+}
+header{
+    background: url('img/headerpic.png');
+    height: 350px;
+}
+#map{
+    width: 100%;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+    margin: 0;
+}
